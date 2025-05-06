@@ -22,7 +22,6 @@ pipeline {
                         export AWS_SECRET_ACCESS_KEY=$AWS_SECRET_ACCESS_KEY
 
                         git clone https://github.com/MuhanedAhmed/jenkins-lab2-task8.git
-                        cd jenkins-lab2-task8
 
                         terraform init
                         terraform apply --auto-approve 
